@@ -1,0 +1,77 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    
+    }
+    
+    .heading_div{
+        float:none;
+        background: white;
+        padding: 10px; 
+        border-radius: 20px;
+        color: black;
+        box-shadow:5px 5px 5px grey;
+    }
+    
+    .heading_div2 {
+    
+        font-size: 18px;
+    }
+    
+    span{
+    
+          visibility:visible;
+        }
+      
+      
+      
+      .heading_div:hover span{
+        visibility:hidden;
+      }
+
+      #footer:hover{
+
+        background-color: skyblue;
+        box-shadow: 10px 10px 50px fuchsia;
+      text-shadow: 5px 5px 10px black;
+      
+      }
+      canvas {
+        border:5px solid white;
+        border-radius:20px;
+        box-shadow: 5px 5px 5px grey;
+        margin-top: 150px;
+        
+        
+        }
+
+        .result_para_tag:hover{
+
+          background-color: orchid;
+          box-shadow: 10px 10px 50px blue;
+        text-shadow: 5px 5px 10px black;
+        
+        }
+
+      #footer {
+        text-align: center;
+        padding: 3px;
+        background-color: grey;
+        color: white;
+        position:fixed;bottom:0;left:0;right:0;height:30px;
+        text-align: center;
+        text-shadow: 5px 5px 7px black;
+      }
+
+      #objectbutton{
+          background-color: red;
+          color:white;
+      }
+
+
+      #accuracybutton{
+        background-color: red;
+        color:white;
+    }
